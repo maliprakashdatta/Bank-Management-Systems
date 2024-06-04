@@ -1,0 +1,18 @@
+*Project Pseudo code:
+** ATM Project - banking - Prakash - bank-management
+-------------------------------------
+*Functionality - 
+- register customer
+- open bank account for registered customer
+- notify user over e-mail
+- deposit
+- transaction history
+- register card to customer
+- Withdrawal of money
+
+*Data Storage(domain/models)-
+- Customer :(id, firstname,lastname,gender,date-of-birth,address,emaild,id-card)
+- Account : (id, accountNumber, type, Customer,balance)
+- Email: (subject, body, to,cc)
+- Transaction: (id, Account, amount, type, date-time)
+- Card: (id, cardNo, Account, Customer, expiry, cvv, type)
